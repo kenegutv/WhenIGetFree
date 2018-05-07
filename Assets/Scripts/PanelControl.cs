@@ -26,8 +26,7 @@ public class PanelControl : MonoBehaviour {
             
         linktoLight.enabled = lightControl;
     }
-    void OnTriggerEnter(Collider other)
-        
+    void OnTriggerEnter(Collider other)   
     {
         Debug.Log("object enter panel trigger");
         linktoLight.enabled = lightControl;
